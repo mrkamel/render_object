@@ -17,7 +17,7 @@ module RenderObject
       res << render_object(object, options)
     end
 
-    res
+    res.html_safe
   end
 end
 
